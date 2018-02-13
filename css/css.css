@@ -1,0 +1,209 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    text-align: center;
+}
+
+body::after {
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-image: url('../pictures/66702.jpg');
+    background-size: cover;
+    filter: blur(5px);
+}
+
+
+/* .title{
+    margin: 0 auto;
+    height: 120px;
+    text-align: center;
+    line-height: 120px;
+    font-size: 1.5em;
+} */
+
+.victory {
+    font-size: 1.5em;
+}
+
+.middle{
+    display: inline-block;
+    height: 720px;
+    min-width: 1200px;
+    margin: 2em auto;
+    position: relative;
+}
+
+.innerMiddle {
+    height: 100%;
+    width: 560px;
+    float: left;
+}
+
+.elementsLeft{
+    float: left;
+    position: relative;
+    width: 320px;
+}
+.elementsRight{
+    float: left;
+    position: relative;
+    width: 316px;
+}
+
+.elementsMiddle{
+    height: 240px;
+    width: 100%;
+    float: left;
+}
+
+.figure{
+    float: left;
+}
+
+.straightLine{
+    height: 160px;
+    width: 80px;
+    z-index: 1;
+
+}
+
+#figureG{
+    height: 240px; 
+    width: 160px; 
+    z-index: 0;
+}
+
+.figureZ{
+    width: 240px;
+    height: 160px;
+    z-index: 0;
+}
+
+.figureW{
+    width: 240px;
+    height: 160px;
+    z-index: 0;
+}
+
+.cube{
+    width: 160px;
+    height: 160px;
+}
+
+.space{
+    width: 238px;
+    height: 80px;
+}
+
+.oppositeG{
+    width: 240px;
+    height: 160px;
+    z-index: 0;
+}
+
+.filler{
+    width: 80px;
+    height: 80px;
+    float: left
+}
+
+table {
+    border-top: 1px solid black;
+    border-spacing: 0;
+    height: 400px;
+    margin: 0 auto;
+}
+
+td {
+    width: 80px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 0px;
+}
+
+td:nth-child(5) {
+    border-right: 1px solid black;
+    width: 81px;
+}
+
+.mainCollider{
+    position: absolute;
+    background-color: teal;
+    background-clip: padding-box; 
+    width: 80px;
+    height: 80px;
+    border-left: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    z-index: 1;
+}
+
+.active{
+    background-color: #C1BFBA;
+}
+
+.mainCollider.straightLineCollider{
+    background-color: green;
+}
+
+.mainCollider.gCollider{
+
+}
+.mainCollider.cubeCollider{
+    background-color: #592055;
+}
+
+.mainCollider.zCollider{
+    background-color: #C3360B;
+}
+
+.mainCollider.wCollider{
+    background-color: #DBBC3F;
+}
+
+.mainCollider.oppositeGCollider{
+    background-color: grey;
+}
+
+.mainCollider.spaceCollider{
+    background-color: #274BD3;
+}
+
+.zero-zero {
+    left: 0;
+    top: 0;
+}
+.zero-one {
+    left: 0;
+    top: 80px;
+}
+.zero-two {
+    left: 0;
+    top: 160px;
+}
+.one-zero {
+    left: 80px;
+    top: 0;
+}
+.one-one {
+    left: 80px;
+    top: 80px;
+}
+.two-zero {
+    left: 160px;
+    top: 0;
+}
+.two-one {
+    left: 160px;
+    top: 80px;
+}
+
+
+
